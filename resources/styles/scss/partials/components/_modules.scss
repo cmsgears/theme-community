@@ -1,0 +1,147 @@
+.module {
+
+    .wrap-content {
+        margin-top: 75px;
+
+        .header {
+            text-align: center;
+        }
+    }
+
+    @include responsive-min( screen-tablet-large ) {
+
+      .wrap-content {
+          margin-top: 110px;
+      }
+    }
+}
+
+// Landing Page modules
+
+#module-banner {
+
+    .bkg-parallax {
+        background-image: url(../images/pad.jpg);     
+    }
+
+    .wrap-content {
+        background-color: $color-transparent-gray;
+        width: 80%;
+        height: 200px;
+        margin: 0 auto;
+
+        .content {
+            padding: 3%;
+            font-size: 2.5em;
+            text-align: center;
+            color: $color-tertiary-text;
+        }
+    }
+
+    @include responsive-min( screen-tablet-large ) {
+
+        .content {
+            font-size: 3.5em;
+        }
+    }
+}
+
+#module-about {
+
+    .row {
+        width: 80%;
+    }
+
+    .container {
+        background-color: $color-primary-l;
+        margin: 1em 1%;
+
+        .content {
+            margin: 1em 0;
+        }
+    }
+}
+
+#module-contact {
+
+    .bkg {
+        background-image: url(../images/keyboard.jpg);
+    }
+
+    .wrap-content {
+        background-color: $color-primary-l;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 1em;
+
+        .content {
+            padding: 3%;
+            text-align: center;
+            color: $color-primary-text;
+            
+            textarea, .icon-textarea {
+                height: 80px;
+            }
+            
+            input[type="submit"] {
+                background-color: $color-tertiary;
+            }
+        }
+    }
+
+    @include responsive-max( screen-tablet-large ) {
+
+        .wrap-content {
+            background-color: $color-transparent-tertiary;
+            color: $color-tertiary-text;
+            height: auto;
+            margin: 0 auto;
+            margin-top: 75px;
+            margin-bottom: 75px;
+        }
+
+        .content h6, .content p {
+            color: $color-tertiary-text;
+        }
+    }
+
+    @include responsive-min( screen-tablet-large ) {
+
+        .wrap-content {
+            width: 820px;
+        }
+    }
+}
+
+// Other Modules
+#module-public {
+
+    .bkg {
+        background-image: url(../images/pad.jpg);     
+    }
+
+    .wrap-content {
+        background-color: $color-tertiary;
+        margin: 0 auto;
+        color: $color-tertiary-text;
+        padding: 1em;
+        width: 400px;
+        
+        a {
+            color: $color-tertiary-text;
+        }
+        
+        .help-block {
+            color: $color-error;
+        }
+    }
+
+    @include responsive-max( screen-mobile-large ) {
+
+        .wrap-content {
+            background-color: $color-transparent-tertiary;
+            width: 80%;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+img {
+	-ms-interpolation-mode: bicubic;
+}
+
+input {
+	vertical-align: text-bottom;
+}

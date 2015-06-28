@@ -1,0 +1,76 @@
+// Primary Color:
+// 1. cmg - mixins - Default color for .linear-gradient
+// 2. cmg - basic - Body background color
+// 3. cmg - reset - a
+// 4. cmg-select - .cmg-select-list:hover
+$color-primary: #f2f2f2;
+// 1. modules - #module-about .container, #module-contact .module-wrap-content
+$color-primary-l: white;
+$color-primary-d: #td;
+
+// Primary Text Color:
+// 1. cmg - basic - .max-area-cover, .header-error, .header-warning, .header-success
+// 2. cmg - typography - body
+// 3. cmg-select - .cmg-select-list:hover
+// 4. modules - #module-contact .module-content
+$color-primary-text: #363636;
+$color-primary-text-l: #363636;
+$color-primary-text-d: #td;
+
+// Secondary Color:
+// 1. cmg - variables-ext - $border-default, $border-default-medium, $border-default-fat
+// 2. cmg - mixins - .circled1, .circled2, .circled3, .circled-text, .shadow, .linear-gradient
+// 3. headers - .header-main
+// 4. navs - .nav-settings li
+$color-secondary: #1e2328;
+// Secondary Color - Light:
+// 1. cmg - variables-ext - $border-default-l, $border-default-medium-l, $border-default-fat-l
+// 2. navs - .nav-settings li:hover
+$color-secondary-l: #cfe1f4;
+// Secondary Color - Dark:
+// 1. cmg - variables-ext - $border-default-d, $border-default-medium-d, $border-default-fat-d
+$color-secondary-d: #475461;
+
+// Secondary Text Color:
+// 1. cmg - mixins - .circled-text
+// 2. headers - #btn-mobile-menu, #btn-login-mobile
+$color-secondary-text: #e6e6e6;
+$color-secondary-text-l: #98a2ad;
+$color-secondary-text-d: #td;
+
+// Tertiary Color:
+// 1. cmg-select - .cmg-select-list
+// 2. popouts - .popout-header
+// 3. modules - #module-contact input[type="submit"], #module-public .module-wrap-content
+$color-tertiary: #3c4655;
+$color-tertiary-l: #td;
+$color-tertiary-d: #td;
+
+// Tertiary Text Color:
+// 1. cmg-select - .cmg-select-list
+// 2. popouts - a, .warning
+// 3. modules - #module-banner .module-content, #module-contact ( .module-wrap-content, .module-content h6, .module-content p )
+//              #module-public ( .module-wrap-content, a )
+$color-tertiary-text: #e6e6e6;
+$color-tertiary-text-l: #td;
+$color-tertiary-text-d: #td;
+
+
+// Transparent colors
+$color-transparent-primary: rgba(242, 242, 242, 0.6);
+$color-transparent-secondary: rgba(30, 35, 40, 0.6);
+$color-transparent-tertiary: rgba(60, 70, 85, 0.6);
+
+
+// Form Fields Default Color
+// 1. cmg - forms - fields
+$color-field: #e1e1e1;
+$color-field-text: #363636;
+// Buttons Color
+// 1. cmg - forms - buttons
+$color-button: #e74343;
+$color-button-text: white;
+// Buttons Hover Color
+// 1. cmg - forms - buttons
+$color-button-h: #363636;
+$color-button-h-text: #949ea8;

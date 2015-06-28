@@ -1,0 +1,64 @@
+.header-main {
+    background-color: $color-secondary;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+
+    .header-desktop {
+        width: 80%;
+        margin: 0 auto;
+
+        .logo {
+            height: 60px;
+            margin: 10px;       
+        }
+
+        #btn-login {
+            line-height: 26px;
+            margin: 0;
+            margin-top: 35px;
+            width: 120px;
+            float: right;
+            cursor: pointer;
+        }
+    }
+
+    .header-mobile {
+        display: none;
+        text-align: center;
+
+        #btn-mobile-menu {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            cursor: pointer;
+            display: inline-block;
+            color: $color-secondary-text;
+        }
+
+        .logo {
+            height: 40px;
+            margin: 5px;
+        }
+
+        #btn-login-mobile {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            cursor: pointer;
+            color: $color-secondary-text;
+        }
+    }
+
+    @include responsive-max( screen-tablet-large ) {
+
+        .header-desktop {
+            display: none;
+        }
+
+        .header-mobile {
+            display: block;
+        }
+    }
+}

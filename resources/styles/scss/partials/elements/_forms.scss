@@ -1,0 +1,21 @@
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    border: none;
+    margin: 10px 0;
+}
+
+input[type="submit"], input[type="button"], button, select, .btn {
+    border: none;
+}
+
+// Form Fields with Icons
+.frm-icon-field {
+
+    .wrap-icon {
+        @include rounded-left( 0 );
+    }
+
+    input[type="text"], input[type="email"], input[type="password"], textarea, input[type="submit"], input[type="button"], button, .btn {
+        @include rounded-right( 0 );
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,31 @@
+.cmg-select-wrap {
+    height: 36px;
+
+    .cmg-select {
+
+        .cmg-selected {
+            background-color: white;
+
+            .s-text {
+
+            }
+
+            .s-icon {
+
+            }
+        }
+
+        .cmg-select-list {
+
+            li {
+                background-color: $color-tertiary;
+                color: $color-tertiary-text;
+            }
+
+            li:hover {
+                background-color: $color-primary;
+                color: $color-primary-text;
+            }
+        }
+    }
+}
