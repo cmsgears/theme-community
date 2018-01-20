@@ -19,5 +19,3 @@ class Theme extends \yii\base\Theme {
 		Yii::setAlias( "@images", "@web/images" );
 	}
 }
-
-?>
